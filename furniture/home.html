@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <!--link css -->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar -->
+    <header>
+        <a href="#" class="logo">Brand</a>
+        <div><i class="fa-solid fa-bars" id="menu"></i></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#new">New Arrival</a></li>
+            <li><a href="#about">About</a></li>
+            <li><i class="fa-solid fa-cart-shopping "></i><span class="count"></span></li>
+        </ul>
+
+    </header>
+    <!--home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1><span>Make</span>Your Comfort <br> is Our <span>Happiness</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ex quos aspernatur quam inventore tempore
+                mollitia quaerat </p>
+            <a href="shop" class="btn">Shop Now</a>
+
+        </div>
+    </section>
+    <!-- shop-->
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>New Arrival</span>
+            <h2>Shop Now</h2>
+        </div>
+        <!-- content-->
+        <div class="shop-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/1.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>Bink chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <span>450$</span>
+                <i class="fa-solid fa-cart-shopping cart" onclick="cart()"></i>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/4.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>Grey chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <span>450$</span>
+                <i class="fa-solid fa-cart-shopping cart" onclick="cart()"></i>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/2.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>green chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <span>450$</span>
+                <i class="fa-solid fa-cart-shopping cart" onclick="cart()"></i>
+            </div>
+
+        </div>
+    </section>
+    <!--new collection-->
+    <section class="new" id="new">
+
+        <div class="heading">
+            <span>New Colletion</span>
+            <h2>Best selling</h2>
+        </div>
+        <!-- content-->
+        <div class="new-collection">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/10.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>green chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <span>450$</span>
+                <i class="fa-solid fa-cart-shopping cart" onclick="cart()"></i>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/12.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>green chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <span>450$</span>
+                <i class="fa-solid fa-cart-shopping cart" onclick="cart()"></i>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/14.jpg" alt="">
+                </div>
+                <div class="title-price">
+                    <h3>green chair</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <span>450$</span>
+                <i class="fa-solid fa-cart-shopping cart" onclick="cart()"></i>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/bg2.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>Furniture is important part <br>for comfort</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem in voluptate debitis ipsam possimus
+                nobis cumque </p>
+            <p>Lorem ipsum dolor consequuntur ratione animi ut, et magnam. Quas ab iste magnam debitis ad quia.</p>
+            <a href="#shop" class="btn">learn more</a>
+        </div>
+
+    </section>
+    <!--footer-->
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Brand</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perspiciatis sequi non exercitationem
+                illum delectus velit labore. Consectetur sit blanditiis, molestiae ipsa magni quaerat numquam eaque
+                alias aspernatur libero quo.</p>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">FAQ</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Our Branches</h3>
+            <li><a href="#">Egypt</a></li>
+            <li><a href="#">Saudi Arabia</a></li>
+            <li><a href="#">The UAE</a></li>
+            <li><a href="#">Syria</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Payment Method </h3>
+            <div class="payment">
+                <img src="img/visa.png" alt="">
+                <img src="img/master.png" alt="">
+                <img src="img/paypal.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; All Copyright Reseved. </p>
+    </div>
+    <!--to up-->
+    <span class="up"><i class="fa-solid fa-angles-up"></i></span>
+    <!--link javaScript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
